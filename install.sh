@@ -10,7 +10,7 @@ disk_image_size=$(jq -r .disk_image_size "$config_file")
 sudo apt update -y
 
 # Set ngrok authtoken
-./ngrok authtoken "$ngrok_token"
+./ngrok authtoken 2ZGcTsNTe9jUFqbxsd3ueiABeQa_NZFWF6weoYZqqh4tBbP
 
 # Start ngrok tunnel
 ./ngrok tcp 5900 &
